@@ -1,0 +1,26 @@
+# Core RAG stack
+langchain>=0.3.26
+langchain-community>=0.3.27
+langchain-huggingface>=0.3.0
+chromadb>=1.0.15
+sentence-transformers>=3.2.1
+huggingface_hub>=0.33.2
+transformers>=4.46.0
+
+# Retrieval and hybrid search
+rank-bm25>=0.2.2
+
+# Local LLM moderation (GGUF)
+llama-cpp-python>=0.3.13
+
+# Utilities / runtime
+nest-asyncio>=1.6.0
+requests>=2.32.3
+pydantic>=2.7.4
+
+# Optional: tracing/observability (comment out if not needed)
+# arize-phoenix>=7.13.0
+# openinference-instrumentation-langchain>=0.1.17
+
+# Optional: newer vectorstore package if migrating from deprecated import
+# langchain-chroma>=0.1.4
